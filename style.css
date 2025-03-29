@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ECECED;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top:0;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 60px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 30px
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+}
+
+.nav-list a:hover {
+    color: #FF0000
+}
+
+.pesquisar {
+    border: none;
+    border-radius: 4%;
+    height: 45px;
+    padding: 15px;
+}
+
+.bag {
+    margin-left: 25px;
+}
+
+.main {
+    width: calc(100% - 100px);
+    display: flex;
+    margin-left: 110px;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+}
+
+.principal h1 {
+    width: 40%;
+    color: #000000;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.principal p {
+    font-size: 16px;
+    color: #9C9696;
+    padding-bottom: 40px;
+}
+
+.principal h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.principal button {
+    border: none;
+    border-radius: 2px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    width: 50%;
+}
+
+.principal a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.carrossel {
+    background-color: #C4C4C4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#imagemPrincipal {
+    width: 597px;
+    height:510.82px;
+}
+
+.foto-tenis {
+    border-radius: 15px;
+    padding: 20px;
+    object-fit: cover;
+    transition: 0.8;
+}
+
+.foto-tenis:hover {
+    transform: scale(1.01);
+}
+
+.list-footer {
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.list-footer li{
+    padding: 50px;
+    font-weight: bold;
+
+}
